@@ -16,9 +16,14 @@
 
 .Text{
   text-align: left;
-  margin: 50px 50px 150px 50px;
+  margin: 50px 75px 150px 75px;
 }
 
 #Title1{
-  margin-top: 400px;
+  margin-top: 350px;
+}
+
+#image{
+  margin-top: 80px;
+  margin-left: 100px;
 }
