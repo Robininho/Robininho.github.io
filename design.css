@@ -4,5 +4,17 @@
 }
 .form{
   text-indent: 20px;
-  font-size: 0.9em;
+  font-size: 0.85em;
+}
+.Title{
+ font-size: 2em;
+ text-align: center;
+ margin-top: 130px;
+}
+.Welcome{
+  text-align: left;
+  margin: 50px 50px 150px 50px;
+}
+#Title1{
+  margin-top: 300px;
 }
