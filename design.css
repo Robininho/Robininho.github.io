@@ -22,6 +22,10 @@
   height: 357px;
 }
 
-#profil{
+.profil{
   height: 100vh;
+}
+
+.logo{
+  font-size: 5rem;
 }
