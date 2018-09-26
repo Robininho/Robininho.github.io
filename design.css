@@ -1,5 +1,4 @@
 .dropdown-item{
-  text-shadow: 10px 8px 20px black;
   font-size: 1.1em;
 }
 
@@ -13,7 +12,8 @@
   text-align: center;
 }
 
-.Text{
+.Text{max-width: 100%;
+  height: auto;
   text-align: left;
 }
 
