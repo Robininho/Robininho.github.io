@@ -22,7 +22,19 @@
   height: 357px;
 }
 
-.profil{
+#profil1{
+  height: 95vh;
+}
+
+#profil2{
+  height: 95vh;
+}
+
+#profil3{
+  height: 125vh;
+}
+
+#profil4{
   height: 100vh;
 }
 
