@@ -1,59 +1,65 @@
-.dropdown-item{
+.dropdown-item {
   font-size: 1.1em;
 }
 
-.form{
+.form {
   text-indent: 20px;
   font-size: 0.85em;
 }
 
-.Title{
+.Title {
   font-size: 2em;
   text-align: center;
 }
 
-.Text{max-width: 100%;
+/* TAILLE DES CONTAINERS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+.bienvenue {
+   margin-bottom: 20rem;
+}
+
+.presentation {
+   margin-bottom: 20rem;
+}
+
+.competence{
+   margin-bottom: 20rem;
+}
+
+.formation {
+   margin-bottom: 20rem;
+}
+
+.experiences {
+   margin-bottom: 20rem;
+}
+.Text {
+  max-width: 100%;
   height: auto;
   text-align: left;
 }
 
-.moi{
+.moi {
   width: 123px;
   height: 357px;
 }
 
-#profil1{
-  height: 95vh;
-}
-
-#profil2{
-  height: 95vh;
-}
-
-#profil3{
-  height: 125vh;
-}
-
-#profil4{
-  height: 100vh;
-}
-
-.logo{
+.logo {
   font-size: 5rem;
 }
 
-#color1{
+#color1 {
   color: #e44d26;
 }
 
-#color2{
+#color2 {
   color: #246baa;
 }
 
-#color3{
+#color3 {
   color: #f7df1e;
 }
 
-#color4{
+#color4 {
   color: #cb002a;
 }
