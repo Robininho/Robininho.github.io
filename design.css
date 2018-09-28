@@ -12,6 +12,7 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 .background2 {
@@ -26,6 +27,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 .background3 {
@@ -40,6 +42,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 .background4 {
@@ -54,6 +57,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
