@@ -1,3 +1,64 @@
+/*Background cover :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+.parallax {
+  /* The image used */
+  background-image: url(images/frank-sinatra-1281484_960_720.jpg);
+
+  /* Set a specific height */
+  min-height: 320px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background2 {
+  /* The image used */
+  background-image: url(images/weight-lifting-1284616_960_720.jpg);
+
+  /* Set a specific height */
+  min-height: 320px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background3 {
+  /* The image used */
+  background-image: url(images/technology-785742_960_720.jpg);
+
+  /* Set a specific height */
+  min-height: 320px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background4 {
+  /* The image used */
+  background-image: url(images/stage-curtain-660078_960_720.jpg);
+
+  /* Set a specific height */
+  min-height: 320px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 .dropdown-item {
   font-size: 1.1em;
 }
@@ -15,24 +76,27 @@
 /* TAILLE DES CONTAINERS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 .bienvenue {
-   margin-bottom: 20rem;
+   height: 500px;
 }
 
 .presentation {
-   margin-bottom: 20rem;
+   height: 500px;
 }
 
 .competence{
-   margin-bottom: 20rem;
+   height: 600px;
 }
 
 .formation {
-   margin-bottom: 20rem;
+   height: 645px;
 }
 
 .experiences {
-   margin-bottom: 20rem;
+   height: 600px;
 }
+/*  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 .Text {
   max-width: 100%;
   height: auto;
