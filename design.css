@@ -64,7 +64,7 @@
 }
 
 .form {
-  text-indent: 20px;
+  text-indent: 0.5rem;
   font-size: 0.85em;
 }
 
@@ -76,11 +76,11 @@
 /* TAILLE DES CONTAINERS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 .bienvenue {
-   height: 30rem;
+   height: 25rem;
 }
 
 .presentation {
-   height: 30rem;
+   padding-bottom: 3rem;
 }
 
 .competence{
@@ -92,11 +92,11 @@
 }
 
 /* .experiences {
-   height: 30rem;
+   height:top 30rem;
 } */
 
-.contact {
-  height: 30rem;
+.contacts {
+  height: 13rem;
 }
 /*  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -108,14 +108,25 @@
 }
 
 .moi {
-  width: 123px;
-  height: 357px;
+  width: 14rem;
+  /* height: 357px; */
 }
 
 .logo {
   font-size: 5rem;
 }
 
+.logo2 {
+  font-size: 6rem;
+}
+
+.progressbar {
+  margin-bottom: 2.5rem;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
 #color1 {
   color: #e44d26;
 }
@@ -130,4 +141,19 @@
 
 #color4 {
   color: #cb002a;
+}
+
+#color5 {
+  color: #c8396a;
+}
+
+#color6 {
+  color: #ff7900;
+}
+
+/* MENU::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+#presentation:target {
+  padding-bottom: 5rem;
 }

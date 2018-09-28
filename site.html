@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link href="design.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<title>Home sweet home</title>
+  <link href="design.css" rel="stylesheet" type="text/css" />
+  <title>Home sweet home</title>
 </head>
 <body>
   <div class="pb-5 pt-1 mt-5">
@@ -15,36 +15,36 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-        <a class="dropdown-item" href="#">Présentation<p class="form">Qui suis-je ?</p></a>
+        <a class="dropdown-item" href="#presentation">Présentation<p class="form">Qui suis-je ?</p></a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Compétences<p class="form">Qu'est ce que je peux vous apporter ?</p></a>
+        <a class="dropdown-item" href="#competences">Compétences<p class="form">Qu'est ce que je peux vous apporter ?</p></a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Formations<p class="form">Ma formation vous intéresse c'est par ici.</p></a>
+        <a class="dropdown-item" href="#formations">Formations<p class="form">Ma formation vous intéresse c'est par ici.</p></a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Expériences professionnelles<p class="form">Elles forgent toujours le caractère.</p></a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Contact<p class="form">Mobile, adresse email, réseaux sociaux il y a là tout ce dont vous avez besoin.</p></a>
+        <!-- <a class="dropdown-item" href="#">Expériences professionnelles<p class="form">Elles forgent toujours le caractère.</p></a>
+        <div class="dropdown-divider"></div> -->
+        <a class="dropdown-item" href="#contacts">Contact<p class="form">Mobile, adresse email, réseaux sociaux il y a là tout ce dont vous avez besoin.</p></a>
       </div>
     </nav>
   </div>
   <!-- bienvenue -->
+  <h1 class="Title mt-5 pt-5 pb-5">Bienvenue</h1>
   <div class="container bienvenue">
-    <h1 class="Title mt-5 pt-3 pb-5">Bienvenue</h1>
     <div class="Text">Vous vous trouvez sur le CV de Robin Halberda. En espérant que vous trouverez votre bonheur et satisfaire vos demandes en développement logiciel. Si vous rechercher un développeur sûr de lui, perspicace et audacieux alors vous êtes au bon endroit. En tant qu'homme de théatre je saurais allier développement web et contact humain pour permettre une meilleure circulation des projets et des informations au sein de l'équipe et de l'entreprise.</div>
   </div>
   <div class="parallax"></div>
   <!-- presentation -->
+  <h1 class="Title pt-5 pb-5" id="presentation">Présentation</h1>
   <div class="container presentation">
-    <h1 class="Title pt-5 pb-5">Présentation</h1>
     <div class="row">
       <div class="col-8 Text">Je suis né le 06 octobre 1999, à Montivilliers en France. Passionné de cinéma et de Frank Sinatra, je suis un cours de théâtre ainsi qu'un atelier de Jazz au conservatoire du Havre. Cela fait maintenant 6 ans que je pratique le théâtre. Je suis aussi un grand sportif. Je fais beaucoup de vélo (c'est mon véhicule de déplacement principal), de musculation (4 à 5 séances par semaines), de course à pieds ainsi que dernièrement du Judo. En prenant conscience que l'anglais était important pour une évolution professionnelle en Angleterre ou en Amérique du Nord, j'ai donc passé du temps à l'améliorer grâce tout d'abord à Babbel puis en regardant des séries en Version Original Sous-Titré FR, VOST et enfin VO. Je l'ai par la suite peaufiné au fur et à mesure de mes voyages (Atlanta, Londres, Maltes, Stockholm).</div>
-      <div class="col-4 text-center"><img class="align-self-start mr-3 moi img-thumbnail img-fluid" src="images/42448062_338121636754259_4849730126927101952_n.jpg" alt="Photo de moi"></div>
+      <div class="col-4 text-center"><img class="align-self-start mr-3 moi img-thumbnail img-fluid" src="images/robin.jpg" alt="Photo de moi"></div>
     </div>
   </div>
   <div class="background2"></div>
-  <!-- competence -->
-  <div class="container competence">
-    <h1 class="Title pt-5 pb-5">Compétences</h1>
+  <!-- competences -->
+  <h1 class="Title pt-5 pb-5" id="competences">Compétences</h1>
+  <div class="container competences padding">
     <div class="row text-center">
       <div class="col Text pb-5">Toutes ces compétences évoluront au fur et à mesure des mois et des années... Mes compétences en développement ne veulent pas dire que je suis fermé sur tel ou tel framework ou sur tel language. Je saurais m'adapter à vos besoins, à LaManu on nous apprend à apprendre par nous même.</div>
     </div>
@@ -68,31 +68,31 @@
         </div>
       </div>
     </div>
-  <div class="row text-center">
-    <div class="col" id="color3">
-      <i class="fab fa-js-square logo pb-3"></i>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+    <div class="row text-center">
+      <div class="col" id="color3">
+        <i class="fab fa-js-square logo pb-3"></i>
+        <div class="progress progressbar">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+        </div>
       </div>
-    </div>
-    <div class="col">
-      <i class="fab fa-wordpress logo pb-3"></i>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+      <div class="col">
+        <i class="fab fa-wordpress logo pb-3"></i>
+        <div class="progress progressbar">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+        </div>
       </div>
-    </div>
-    <div class="col">
-      <i class="fab fa-angular logo pb-3" id="color4"></i>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+      <div class="col">
+        <i class="fab fa-angular logo pb-3" id="color4"></i>
+        <div class="progress progressbar">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="background3"></div>
-<!-- formation -->
-  <div class="containern formation">
-    <h1 class="Title pb-5 pt-5">Formations</h1>
+  <div class="background3"></div>
+  <!-- formations -->
+  <h1 class="Title pb-5 pt-5" id="formations">Formations</h1>
+  <div class="container formations padding">
     <div class="row text-center">
       <div class="col-12 col-xl-4">
         <div class="card">
@@ -131,16 +131,21 @@
   <div class="background4"></div>
   <!-- experience -->
   <!-- <div class="container experiences">
-    <h1 class="Title pb-5 pt-5">Expériences professionnelles</h1>
-    <div class="Text">1 mois et demi de Manutention sur le Chantier Seafrigo; Bénévolat au Restos du Coeur; Coaching d'entretien physique à Atlanta; Création d'un CV en Bootstrap HTML5 et CSS3.</div>
-  </div> -->
-  <!-- contact -->
-  <div class="container contact">
-  <h1 class="Title pb-5 pt-5">Contact</h1>
-
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <h1 class="Title pb-5 pt-5">Expériences professionnelles</h1>
+  <div class="Text">1 mois et demi de Manutention sur le Chantier Seafrigo; Bénévolat au Restos du Coeur; Coaching d'entretien physique à Atlanta; Création d'un CV en Bootstrap HTML5 et CSS3.</div>
+</div> -->
+<!-- contact -->
+<h1 class="Title pb-5 pt-5">Contacts</h1>
+<div class="container contacts" id="contacts">
+  <div class="row text-center">
+     <div class="col" id="color5"><i class="fab fa-instagram logo2"></i><p><a href="https://www.instagram.com/robin.hlbd/" title="Pour les curieux !">robin.hlbd</a></p></div>
+     <div class="col" id="color6"><i class="far fa-envelope logo2"></i><p>robin.halberda@orange.fr</p></div>
+     <div class="col"><i class="fas fa-mobile-alt logo"></i><p>0676022629</p></div>
+   </div>
+ </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
