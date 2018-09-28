@@ -15,7 +15,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-        <button class="dropdown-item" type="button">Présentation<p class="form">Qui suis-je ?</p></button>
+        <a href="#bienvenue"><button class="dropdown-item" type="button">Présentation<p class="form">Qui suis-je ?</p></button></a>
         <div class="dropdown-divider"></div>
         <button class="dropdown-item" type="button">Compétences<p class="form">Qu'est ce que je peux vous apporter ?</p></button>
         <div class="dropdown-divider"></div>
@@ -28,7 +28,7 @@
     </nav>
   </div>
   <!-- bienvenue -->
-  <div class="container bienvenue">
+  <div class="container bienvenue" id="bienvenue">
     <h1 class="Title mt-5 pt-3 pb-5">Bienvenue</h1>
     <div class="Text">Vous vous trouvez sur le CV de Robin Halberda. En espérant que vous trouverez votre bonheur et satisfaire vos demandes en développement logiciel. Si vous rechercher un développeur sûr de lui, perspicace et audacieux alors vous êtes au bon endroit. En tant qu'homme de théatre je saurais allier développement web et contact humain pour permettre une meilleure circulation des projets et des informations au sein de l'équipe et de l'entreprise.</div>
   </div>
@@ -37,7 +37,7 @@
   <div class="container presentation">
     <h1 class="Title pt-5 pb-5">Présentation</h1>
     <div class="row">
-      <div class="col-8 Text">Je suis né le 06 octobre 1999, à Montivilliers en France. Passionné de cinéma et de Frank Sinatra, je suis un cours de théâtre ainsi qu'un atelier de Jazz au conservatoire du Havre. Cela fait maintenant 6 ans que je pratique le théâtre. Je suis aussi un grand sportif. Je fais beaucoup de vélo (c'est mon véhicule de déplacement principal), de musculation (4 à 5 séances par semaines), de course à pieds ainsi que dernièrement du Judo.</div>
+      <div class="col-8 Text">Je suis né le 06 octobre 1999, à Montivilliers en France. Passionné de cinéma et de Frank Sinatra, je suis un cours de théâtre ainsi qu'un atelier de Jazz au conservatoire du Havre. Cela fait maintenant 6 ans que je pratique le théâtre. Je suis aussi un grand sportif. Je fais beaucoup de vélo (c'est mon véhicule de déplacement principal), de musculation (4 à 5 séances par semaines), de course à pieds ainsi que dernièrement du Judo. En prenant conscience que l'anglais était important pour une évolution professionnelle en Angleterre ou en Amérique du Nord, j'ai donc passé du temps à l'améliorer grâce tout d'abord à Babbel puis en regardant des séries en Version Original Sous-Titré FR, VOST et enfin VO. Je l'ai par la suite peaufiné au fur et à mesure de mes voyages (Atlanta, Londres, Maltes, Stockholm).</div>
       <div class="col-4 text-center"><img class="align-self-start mr-3 moi img-thumbnail img-fluid" src="images/42448062_338121636754259_4849730126927101952_n.jpg" alt="Photo de moi"></div>
     </div>
   </div>
@@ -46,7 +46,7 @@
   <div class="container competence">
     <h1 class="Title pt-5 pb-5">Compétences</h1>
     <div class="row text-center">
-      <div class="col Text pb-5">Toutes ces compétences évoluront au fur et à mesure des mois et des années... Mes compétences en développement ne veulent pas dire que je suis fermé sur tel ou tel framework ou sur tel language. Je saurais m'adapter à vos besoins, à LaManu on nous a appris à apprendre par nous même.</div>
+      <div class="col Text pb-5">Toutes ces compétences évoluront au fur et à mesure des mois et des années... Mes compétences en développement ne veulent pas dire que je suis fermé sur tel ou tel framework ou sur tel language. Je saurais m'adapter à vos besoins, à LaManu on nous apprend à apprendre par nous même.</div>
     </div>
     <div class="row text-center">
       <div class="col" id="color1">
@@ -100,7 +100,7 @@
           <div class="card-body">
             <h5 class="card-title">Compagnie Akté</h5>
             <p class="card-text">5 belles années de théâtre au sein de cette compagnie (2012/2017).</p>
-            <a href="http://akte.fr/" class="btn btn-primary">Site de la Compagnie</a>
+            <a href="http://akte.fr/" class="btn btn-primary">La Compagnie</a>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@
             <h5 class="card-title">Collège/Lycée Saint Joseph</h5>
             <p class="class-text font-weight-bold">Baccalauréat 2017 série S</p>
             <p class="card-text font-weight-bold">Brevet des collèges 2014 mention assez bien</p>
-            <a href="https://www.st-jo.fr/" class="btn btn-primary">Site de l'établissement</a>
+            <a href="https://www.st-jo.fr/" class="btn btn-primary">L'établissement</a>
           </div>
         </div>
       </div>
@@ -122,7 +122,7 @@
             <h5 class="card-title">LA MANU</h5>
             <p class="card-text"><strong>Titre professionnel de développeur logiciel de niveau III</strong></p>
             <p class="card-text">En cours d'acquisition années 2018/2019</p>
-            <a href="https://lamanu.fr/" class="btn btn-primary">Site de LaManu</a>
+            <a href="https://lamanu.fr/" class="btn btn-primary">LaManu</a>
           </div>
         </div>
       </div>
@@ -130,8 +130,13 @@
   </div>
   <div class="background4"></div>
   <!-- experience -->
-  <div class="container experiences">
+  <!-- <div class="container experiences">
     <h1 class="Title pb-5 pt-5">Expériences professionnelles</h1>
+    <div class="Text">1 mois et demi de Manutention sur le Chantier Seafrigo; Bénévolat au Restos du Coeur; Coaching d'entretien physique à Atlanta; Création d'un CV en Bootstrap HTML5 et CSS3.</div>
+  </div> -->
+  <!-- contact -->
+  <div class="container contact">
+  <h1 class="Title pb-5 pt-5">Contact</h1>
 
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

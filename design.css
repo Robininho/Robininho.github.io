@@ -5,7 +5,7 @@
   background-image: url(images/frank-sinatra-1281484_960_720.jpg);
 
   /* Set a specific height */
-  min-height: 320px;
+  min-height: 19rem;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -19,7 +19,7 @@
   background-image: url(images/weight-lifting-1284616_960_720.jpg);
 
   /* Set a specific height */
-  min-height: 320px;
+  min-height: 19rem;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -33,7 +33,7 @@
   background-image: url(images/technology-785742_960_720.jpg);
 
   /* Set a specific height */
-  min-height: 320px;
+  min-height: 19rem;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -47,7 +47,7 @@
   background-image: url(images/stage-curtain-660078_960_720.jpg);
 
   /* Set a specific height */
-  min-height: 320px;
+  min-height: 19rem;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -76,23 +76,27 @@
 /* TAILLE DES CONTAINERS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 .bienvenue {
-   height: 500px;
+   height: 30rem;
 }
 
 .presentation {
-   height: 500px;
+   height: 30rem;
 }
 
 .competence{
-   height: 600px;
+   height: 40rem;
 }
 
 .formation {
-   height: 645px;
+   height: 42rem;
 }
 
-.experiences {
-   height: 600px;
+/* .experiences {
+   height: 30rem;
+} */
+
+.contact {
+  height: 30rem;
 }
 /*  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -100,7 +104,7 @@
 .Text {
   max-width: 100%;
   height: auto;
-  text-align: left;
+  text-align: justify;
 }
 
 .moi {
