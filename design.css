@@ -2,17 +2,14 @@
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 .parallax {
   /* The image used */
-  background-image: url(images/frank-sinatra-1281484_960_720.jpg);
+  background: url(images/frank-sinatra-1281484_960_720.jpg) no-repeat center fixed;
 
   /* Set a specific height */
   min-height: 19rem;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
   background-size: cover;
-  width: 100%;
 }
 
 .background2 {
@@ -27,7 +24,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
 }
 
 .background3 {
@@ -42,7 +38,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
 }
 
 .background4 {
@@ -57,7 +52,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
 }
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
