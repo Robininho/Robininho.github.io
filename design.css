@@ -2,7 +2,7 @@
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 .parallax {
   /* The image used */
-  background: url(images/frank-sinatra-1281484_960_720.jpg) no-repeat center fixed;
+  background: url(images/frank-sinatra-1281484_960_720.jpg) no-repeat top fixed;
 
   /* Set a specific height */
   min-height: 19rem;
